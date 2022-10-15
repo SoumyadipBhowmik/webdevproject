@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    display: flex;
+}
+#logo img{
+    height: 59px;
+}
+#logo .logoname{
+
+}
