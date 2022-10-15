@@ -1,13 +1,47 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-#logo{
+/*Complete Navigation bar customization. Starts with the logo*/
+#navbar{
     display: flex;
+    justify-content: space-between;
 }
-#logo img{
+#navbar .logoname{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+#navbar img{
     height: 59px;
 }
-#logo .logoname{
-
+/*Goes to the last navbar, that is the actual navigation space*/
+#navbar ul{
+    display: flex;
+    margin: 3px;
+}
+#navbar li{
+    list-style: none;
+    padding: 20px 12px;
+}
+#navbar li a{
+    text-decoration: none;
+}
+#navbar .searchbar{
+    display: flex;
+    align-items: center;
+}
+#navbar input{
+    width: 560px;
+    padding: 5px;
+    font-weight: 700;
+}
+#navbar .btn{
+    padding: 7px;
+    width: 70px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #F3BA2C;
+    border: none;
+    cursor: pointer;
 }
